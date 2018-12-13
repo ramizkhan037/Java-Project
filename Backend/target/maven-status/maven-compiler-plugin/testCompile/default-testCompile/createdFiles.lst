@@ -1,0 +1,6 @@
+com\amazon\test\UserDAOTest.class
+com\amazon\Backend\AppTest.class
+com\amazon\test\Test.class
+com\amazon\test\CategoryDAOTest.class
+com\amazon\test\ProductDAOTest.class
+com\amazon\test\SupplierDAOTest.class

@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/Dec/2018:14:52:10 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:52:10 +0530] "GET /Frontend/ HTTP/1.1" 200 1888
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:52:17 +0530] "GET /Frontend/product HTTP/1.1" 200 4259
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:53:10 +0530] "GET /Frontend/editProduct/54 HTTP/1.1" 200 4293
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:53:31 +0530] "POST /Frontend/editProduct/InsertProduct HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:57:22 +0530] "GET /Frontend/ HTTP/1.1" 200 1888
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:57:31 +0530] "GET /Frontend/product HTTP/1.1" 200 4259
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:57:39 +0530] "GET /Frontend/editProduct/54 HTTP/1.1" 200 4293
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:58:02 +0530] "GET /Frontend/editProduct/54 HTTP/1.1" 200 4293
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:14:58:20 +0530] "POST /Frontend/editProduct/InsertProduct HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:15:04:25 +0530] "POST /Frontend/editProduct/InsertProduct HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:16:07:10 +0530] "GET /Frontend/ HTTP/1.1" 200 1888
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:16:07:18 +0530] "GET /Frontend/product HTTP/1.1" 200 4259
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:16:07:44 +0530] "GET /Frontend/product HTTP/1.1" 200 4259
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:16:08:05 +0530] "GET /Frontend/editProduct/54 HTTP/1.1" 200 4293
+0:0:0:0:0:0:0:1 - - [06/Dec/2018:16:08:14 +0530] "POST /Frontend/editProduct/InsertProduct HTTP/1.1" 400 1127

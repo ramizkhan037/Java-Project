@@ -1,0 +1,7 @@
+package com.ecomm.test;
+
+import junit.framework.TestCase;
+
+public class CategoryDAOTest extends TestCase {
+
+}

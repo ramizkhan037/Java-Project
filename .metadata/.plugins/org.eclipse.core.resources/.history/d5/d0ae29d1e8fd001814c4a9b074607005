@@ -1,0 +1,15 @@
+<%@include file="Header.jsp" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<h3 align="center">Cart</h3>
+<table class="tabel bordered">
+
+<tr>
+    <td>SL #</td>
+    <td>Product Name</td>
+    <td>Quantity</td>
+    <td>Price</td>
+    <td>Total Price</td>
+    
+
+</table>

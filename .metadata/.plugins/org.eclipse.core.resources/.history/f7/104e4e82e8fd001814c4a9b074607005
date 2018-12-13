@@ -1,0 +1,4 @@
+<%@include file="Header.jsp" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<h3 align="center">Cart</h3>

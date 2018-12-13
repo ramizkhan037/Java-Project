@@ -1,0 +1,26 @@
+package com.amazon.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.amazon.dao.CategoryDAO;
+import com.amazon.model.Category;
+
+@Controller
+public class CategoryController 
+{
+   @Autowired
+   CategoryDAO categoryDAO;
+   
+   @RequestMapping(value="/category")
+	public String showCategory(Model m)
+	{
+		List<Category> listCategories=categoryDAO.listCategories();
+		m.addAttribute("listCategories", listCategories); 
+		return "Category";
+	}
+}

@@ -1,0 +1,30 @@
+package com.amazon.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.amazon.dao.CategoryDAO;
+
+public class SupplierDAOTest 
+{
+
+	public class CategoryDAOTest 
+	{
+
+		static CategoryDAO categoryDAO;
+
+		@BeforeClass
+		public static void executeFirst()
+		{
+			AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext();
+			
+			context.scan("com.amazon");
+			context.refresh();
+			
+			categoryDAO=(CategoryDAO)context.getBean("categoryDAO");
+		}
+		
+}

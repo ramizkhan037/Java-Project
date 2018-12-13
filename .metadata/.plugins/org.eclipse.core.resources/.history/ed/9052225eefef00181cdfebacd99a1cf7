@@ -1,0 +1,37 @@
+package com.amazon.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.amazon.dao.SupplierDAO;
+import com.amazon.model.Supplier;
+
+
+public class SupplierDAOTest 
+{
+
+	static SupplierDAO supplierDAO;
+
+	@BeforeClass
+	public static void executeFirst()
+	{
+		AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext();
+		
+		context.scan("com.amazon");
+		context.refresh();
+		
+	    supplierDAO=(SupplierDAO)context.getBean("supplierDAO");
+	}
+	@Test
+	public void addCategoryTest()
+	{
+		Supplier supplier=new Supplier();
+		supplier.setSupplierName("rohit");
+		supplier.setSupplierAddr("nagpur");
+		
+		assertTrue("Probem in Adding the Category",supplierDAO.addSupplier(supplier));
+	}
+}

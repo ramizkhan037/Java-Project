@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Backend (5)" project="Backend" tests="15" started="15" failures="0" errors="0" ignored="14">
+  <testsuite name="com.amazon.test.SupplierDAOTest" time="0.002">
+    <testcase name="updateSupplier" classname="com.amazon.test.SupplierDAOTest" time="0.002" ignored="true"/>
+    <testcase name="listSuppliers" classname="com.amazon.test.SupplierDAOTest" time="0.0" ignored="true"/>
+    <testcase name="addSupplierTest" classname="com.amazon.test.SupplierDAOTest" time="0.0" ignored="true"/>
+    <testcase name="deleteSupplier" classname="com.amazon.test.SupplierDAOTest" time="0.0" ignored="true"/>
+  </testsuite>
+  <testsuite name="com.amazon.Backend.AppTest" time="0.0">
+    <testcase name="testApp" classname="com.amazon.Backend.AppTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="com.amazon.test.CategoryDAOTest" time="0.0">
+    <testcase name="addCategoryTest" classname="com.amazon.test.CategoryDAOTest" time="0.0" ignored="true"/>
+    <testcase name="deleteCategoryTest" classname="com.amazon.test.CategoryDAOTest" time="0.0" ignored="true"/>
+    <testcase name="updateCategoryTest" classname="com.amazon.test.CategoryDAOTest" time="0.0" ignored="true"/>
+    <testcase name="listCategoriesTest" classname="com.amazon.test.CategoryDAOTest" time="0.0" ignored="true"/>
+  </testsuite>
+  <testsuite name="com.amazon.test.ProductDAOTest" time="0.001">
+    <testcase name="deleteProductTest" classname="com.amazon.test.ProductDAOTest" time="0.0" ignored="true"/>
+    <testcase name="addProductTest" classname="com.amazon.test.ProductDAOTest" time="0.0" ignored="true"/>
+    <testcase name="listProductsTest" classname="com.amazon.test.ProductDAOTest" time="0.001" ignored="true"/>
+    <testcase name="updateProductTest" classname="com.amazon.test.ProductDAOTest" time="0.0" ignored="true"/>
+  </testsuite>
+  <testsuite name="com.amazon.test.UserDAOTest" time="0.0">
+    <testcase name="registerUserTest" classname="com.amazon.test.UserDAOTest" time="0.0" ignored="true"/>
+    <testcase name="updateUserTest" classname="com.amazon.test.UserDAOTest" time="0.0" ignored="true"/>
+  </testsuite>
+</testrun>

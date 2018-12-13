@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProductDAOTest" project="Backend" tests="4" started="4" failures="0" errors="0" ignored="3">
+  <testsuite name="com.amazon.test.ProductDAOTest" time="0.321">
+    <testcase name="deleteProductTest" classname="com.amazon.test.ProductDAOTest" time="0.32"/>
+    <testcase name="addProductTest" classname="com.amazon.test.ProductDAOTest" time="0.0" ignored="true"/>
+    <testcase name="listProductsTest" classname="com.amazon.test.ProductDAOTest" time="0.0" ignored="true"/>
+    <testcase name="updateProductTest" classname="com.amazon.test.ProductDAOTest" time="0.001" ignored="true"/>
+  </testsuite>
+</testrun>
