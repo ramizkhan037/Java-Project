@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CartDAOTest" project="Backend" tests="2" started="2" failures="0" errors="0" ignored="1">
-  <testsuite name="com.amazon.test.CartDAOTest" time="0.367">
-    <testcase name="addCartTest" classname="com.amazon.test.CartDAOTest" time="0.0" ignored="true"/>
-    <testcase name="updateCartTest" classname="com.amazon.test.CartDAOTest" time="0.367"/>
-  </testsuite>
-</testrun>

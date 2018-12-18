@@ -3,11 +3,14 @@ F:\NIITProject\Backend\src\main\java\com\amazon\model\UserDetail.java
 F:\NIITProject\Backend\src\main\java\com\amazon\Config\DBConfig.java
 F:\NIITProject\Backend\src\main\java\com\amazon\model\Category.java
 F:\NIITProject\Backend\src\main\java\com\amazon\model\Supplier.java
+F:\NIITProject\Backend\src\main\java\com\amazon\model\Cart.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\CategoryDAOImpl.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\SupplierDAOImpl.java
+F:\NIITProject\Backend\src\main\java\com\amazon\dao\CartDAOImpl.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\ProductDAOImpl.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\UserDAO.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\SupplierDAO.java
+F:\NIITProject\Backend\src\main\java\com\amazon\dao\CartDAO.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\CategoryDAO.java
 F:\NIITProject\Backend\src\main\java\com\amazon\model\Product.java
 F:\NIITProject\Backend\src\main\java\com\amazon\dao\ProductDAO.java

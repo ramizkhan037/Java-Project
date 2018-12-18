@@ -5,7 +5,7 @@
 <div class="container">
 
 <form:form action="InsertProduct" modelAttribute="product" method="post" enctype="multipart/form-data">
-<table align="center"  class="table table=bordered">
+<table align="center"  class="table table-bordered">
 
 		<tr>
 		   <td>Product Name</td>
@@ -44,31 +44,32 @@
 			</tr>
 </table>			
 </form:form>
-<table align="center" align="center" class="table table=bordered">
+
+<table align="center" align="center" class="table table-bordered">
 
 <tr>
       <td>Product ID</td>
       <td>Product Name</td>
       <td>Category</td>
       <td>Price</td>
+      <td>Stock</td>
       <td>Supplier</td>
       <td>Operation</td>
 </tr>
-<c:forEach items="${productList}"var="product">
+<c:forEach items="${productlist}" var="product">
 <tr>
     <td>${product.productId}</td>
     <td>${product.productName}</td>
     <td>${product.categoryId}</td>
     <td>${product.price}</td>
+    <td>${product.stock}</td>
     <td>${product.supplierId}</td>
     <td>
-        <a class="btn  btn-success" href="<c:url value="/editproduct/${product.productId}"/>">Edit</a>
-        <a class="btn  btn-delete" href="<c:url value="/deleteproduct/${product.productId}"/>">delete</a>
+        <a class="btn  btn-success" href="<c:url value="/editProduct/${product.productId}"/>">Edit</a>
+        <a class="btn  btn-danger" href="<c:url value="/deleteProduct/${product.productId}"/>">delete</a>
      </td>			
 </tr>
 </c:forEach>
 </table>
 </div>
 
-</body>
-</html>

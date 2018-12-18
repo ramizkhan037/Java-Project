@@ -1,3 +1,5 @@
 com\amazon\controller\CategoryController.class
 com\amazon\controller\PageController.class
+com\amazon\controller\CartController.class
 com\amazon\controller\ProductController.class
+com\amazon\controller\UserController.class

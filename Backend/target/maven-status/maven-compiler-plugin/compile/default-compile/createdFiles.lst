@@ -1,10 +1,13 @@
+com\amazon\model\Cart.class
 com\amazon\dao\ProductDAOImpl.class
 com\amazon\Config\DBConfig.class
+com\amazon\dao\CartDAO.class
 com\amazon\dao\UserDAOImpl.class
 com\amazon\dao\CategoryDAO.class
 com\amazon\dao\CategoryDAOImpl.class
 com\amazon\model\Product.class
 com\amazon\model\Supplier.class
+com\amazon\dao\CartDAOImpl.class
 com\amazon\Backend\App.class
 com\amazon\model\UserDetail.class
 com\amazon\model\Category.class

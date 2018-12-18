@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SupplierDAOTest" project="Backend" tests="4" started="4" failures="0" errors="0" ignored="3">
-  <testsuite name="com.amazon.test.SupplierDAOTest" time="0.227">
-    <testcase name="updateSupplier" classname="com.amazon.test.SupplierDAOTest" time="0.001" ignored="true"/>
-    <testcase name="listSuppliers" classname="com.amazon.test.SupplierDAOTest" time="0.0" ignored="true"/>
-    <testcase name="addSupplierTest" classname="com.amazon.test.SupplierDAOTest" time="0.227"/>
-    <testcase name="deleteSupplier" classname="com.amazon.test.SupplierDAOTest" time="0.0" ignored="true"/>
-  </testsuite>
-</testrun>

@@ -2,12 +2,12 @@
 
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-
+<div class="container">
 <h3 align="center">Category Page</h3>
 
 <form action="<c:url value="/addCategory"/>" method="post" >
 
-<table align="center">
+<table align="center"  class="table table-bordered">
 	<tr>
 		<td>Category Name </td>
 		<td><input type="text" id="categoryName" name="categoryName"value="${category.categoryName}"/></td>
@@ -23,7 +23,7 @@
 </form>
 
 
-<table align="center" border="1">
+<table align="center" align="center" class="table table-bordered">
 	<tr>
 		<td>Category ID</td>
 		<td>Category Name</td>
@@ -36,12 +36,13 @@
 		<td>${category.categoryName}</td>
 		<td>${category.categoryDesc}</td>
 		<td>
-			<a href="<c:url value="/editCategory/${category.categoryId}"/>">Edit</a>
-			<a href="<c:url value="/deleteCategory/${category.categoryId}"/>">Delete</a>
+			<a class="btn  btn-success" href="<c:url value="/editCategory/${category.categoryId}"/>">Edit</a>
+			<a class="btn  btn-danger" href="<c:url value="/deleteCategory/${category.categoryId}"/>">Delete</a>
 		</td>
 	</tr>
 	</c:forEach>
 </table>
+</div>
 
 </body>
 </html>

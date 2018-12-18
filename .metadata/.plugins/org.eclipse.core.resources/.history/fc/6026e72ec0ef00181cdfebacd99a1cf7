@@ -1,9 +1,0 @@
-package com.amazon.test;
-
-import com.amazon.dao.UserDAO;
-
-public class UserDAOTest 
-{
-     static UserDAO userDAO;
-     
-}
