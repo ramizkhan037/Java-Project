@@ -17,3 +17,6 @@
 0:0:0:0:0:0:0:1 - - [16/Dec/2018:16:55:16 +0530] "GET /Frontend/addToCart/56?quantity=1 HTTP/1.1" 200 6025
 0:0:0:0:0:0:0:1 - - [16/Dec/2018:16:55:17 +0530] "GET /Frontend/totalProductDisplay/56.jpg HTTP/1.1" 200 4002
 0:0:0:0:0:0:0:1 - - [16/Dec/2018:16:55:17 +0530] "GET /Frontend/resources/images/56.jpg HTTP/1.1" 404 1047
+127.0.0.1 - - [16/Dec/2018:17:32:41 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Dec/2018:17:32:42 +0530] "GET /Frontend/ HTTP/1.1" 200 1910
+0:0:0:0:0:0:0:1 - - [16/Dec/2018:17:32:48 +0530] "GET /Frontend/login HTTP/1.1" 200 3893
