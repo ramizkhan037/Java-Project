@@ -52,7 +52,7 @@
 			   <div id="userdetail">
 			       <font color="white">
 			        Welcome ${sessionScope.username}
-			        <a href="<c:out value="/perform_logout"/>" class="btn btn-danger">Logout</a>
+			        <a href="<c:out value="/perform_logout"/>"  class="btn btn-danger">Logout</a>
 			       </font>
 			   </div>
 			 </c:if>
