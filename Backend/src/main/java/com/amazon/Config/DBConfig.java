@@ -1,4 +1,4 @@
-package com.amazon.Config;
+package com.amazon.Config;:
 
 import java.util.Properties;
 
